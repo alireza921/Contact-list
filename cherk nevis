@@ -1,0 +1,24 @@
+<form onSubmit={submitHandler}>
+        <div className={styles.name}>
+          <label> Name : </label>
+          <input
+            type='text'
+            name='name'
+            value={inputValue.contact}
+            onChange={changeHandler}
+          />
+        </div>
+        <div className={styles.email}>
+          <label> E-mail </label>
+          <input
+            type='email'
+            name='email'
+            value={inputValue.email}
+            onChange={changeHandler}
+          />
+        </div>
+        <div>
+          <button type='submit'> add contact </button>
+        </div>
+        </form>
+        
