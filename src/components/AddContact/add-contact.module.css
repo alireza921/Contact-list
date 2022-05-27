@@ -19,13 +19,16 @@
 
 .input { 
     width: 250px;
-    background-color: white;
+    background-color: #e2e8f0;
     outline: rgb(36, 22, 1);
-    border-radius: 12px;
+    border-radius: 5px;
     padding: 5px;
     margin: 3px 7px;
-    border: solid 1px #375cde;
-    /* border: none; */
+    border: none;
+}
+.input:focus{ 
+    background: linear-gradient(180deg,#dbc2c278, #82b8e166);
+    border: solid 2px #375cde;
 }
 
 .btn { 
