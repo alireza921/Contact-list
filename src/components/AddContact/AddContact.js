@@ -48,8 +48,7 @@ const AddContact = ({ onAddContact }) => {
         />
       </div>
       <button type='submit' className={styles.btn}>
-        {" "}
-        Add Contact{" "}
+        Add Contact
       </button>
     </form>
   );
